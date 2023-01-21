@@ -80,7 +80,9 @@ As shown below the ResNet50 model consists of 5 stages each with a convolution a
 
 Model Training and Prediction on Real Images
 We first made an initial model with resnet50,VGG16BN and inceptionnetwhich had an F1 score of 93.46%.We then did an Ensemble of resnet50,VGG16BN and inception net V3.
-We use transfer learning and unfroze the last few layers to then train the model on the training data set while measuring loss and accuracy on the validation set. As shown by the loss and accuracy numbers below, the model trains very quickly. For the last epoch, F1 score is 94.34% and validation accuracy is 94%!. This is the power of transfer learning. Our final model has a validation accuracy of 94% , Precision of 89.29%, Recall of 100% , F1 score is 94.34%.
+We use transfer learning and unfroze the last few layers to then train the model on the training data set while measuring loss and accuracy on the validation set. As shown by the loss and accuracy numbers below, the model trains very quickly. For the last epoch, F1 score is 94.34% and validation accuracy is 94%!. This is the power of transfer learning. 
+
+<h5>Our final model has a validation accuracy of 94% , Precision of 89.29%, Recall of 100% , F1 score is 94.34%.</h5>
 
 The model does very well on images that it has not seen before. As shown in the image below, the model is able to detect a very long crack in concrete by processing 100s of patches on the image.
 

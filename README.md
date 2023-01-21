@@ -1,4 +1,4 @@
-# Surface-Crack(Metrics Precision,Recall and F1 Score)
+# Surface-Crack(Metrics Precision=0.8929,Recall=1 and F1 Score=0.9434)
 Detection of surface cracks is an important task in monitoring the structural health of concrete structures. If cracks develop and continue to propogate, they reduce the effective load bearing surface area and can over time cause failure of the structure. The manual process of crack detection is painstakingly time-consuming and suffers from subjective judgments of inspectors. Manual inspection can also be difficult to perform in case of high rise buildings and bridges. In this hackathon, we have used deep learning to build a simple yet very accurate model for crack detection. 
 
 The data set consists of 300 images of concrete structures with cracks and 300 images each without cracks. The dataset is generated from 458 high-resolution images (4032x3024 pixel). Each image in the data set is a 227 x 227 pixels RGB image. Some sample images with cracks and without cracks are shown below:
